@@ -44,7 +44,7 @@ public partial class frmMain : Form
 
         if (int.TryParse(tbAge.Text.Trim(), out var age) && (age < 20 || age >80))
         {
-            MessageBox.Show("La edad debe ser entry 20 y 80 años", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("La edad debe ser entre 20 y 80 aÃ±os", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
         }
 
